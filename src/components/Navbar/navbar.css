@@ -1,0 +1,19 @@
+nav.navbar.navbar-default {
+    margin-bottom: 0;
+  }
+  
+#brand{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+}
+
+#nav{
+    background-color: #8b7da7;
+}
+
+a{
+    color: rgba(253, 252, 252, 0.904);
+    font-size: larger;
+}

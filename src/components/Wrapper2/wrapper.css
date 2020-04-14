@@ -1,0 +1,14 @@
+.wrapper {
+    min-height: 80vh;
+    width: 50%;
+    padding-bottom: 100px;
+    background-color: rgba(199, 211, 212, 0.452);
+    overflow: auto;
+  }
+
+  @media only screen and (max-width: 819px) {
+    .wrapper {
+      float: none;
+      width: 100%;
+    }
+  }

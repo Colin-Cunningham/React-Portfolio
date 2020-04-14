@@ -1,0 +1,16 @@
+.body {
+  min-height: 80vh;
+  width: 50%;
+  float: left;
+  padding-bottom: 100px;
+  background-color: #240c4b ;
+  overflow: auto;
+}
+  
+  
+@media only screen and (max-width: 819px) {
+  .body {
+    float: none;
+    width: 100%;
+  }
+}
