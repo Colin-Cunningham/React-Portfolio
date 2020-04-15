@@ -85,4 +85,9 @@
     
  
   
-    
+    @media only screen and (max-width: 636px) {
+        #projects {
+            width: 100px;
+            height: 100px;
+            }
+      }
