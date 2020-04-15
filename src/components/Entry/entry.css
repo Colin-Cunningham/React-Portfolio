@@ -1,0 +1,88 @@
+#projects {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    background: whitesmoke;    
+    border: 1px outset black;
+    transform: skewX(-10deg);
+    padding: 0
+    }
+
+
+#cont{
+    min-height: 125.9vh;
+    text-align: center;
+}
+
+#strip{
+    background-image: url("./banner.gif");
+    background-size: cover;
+    height: 18rem;
+    padding: 4rem;
+    width: 60rem;
+    margin-left: -3rem;
+    padding-right: 12rem;
+    border: 2px inset rgba(199, 211, 212, 0.452);
+}
+
+.col1{
+   width: 5rem;
+   border: 2px solid black;
+   height: 10rem;
+   margin: 1rem;
+}
+
+
+#proj{
+    color:  #240c4b;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-style: bold;
+    margin-bottom: 6rem;
+}
+
+#resume{
+    width: 25rem;
+    margin: 0  auto;
+    border: .2rem inset rgba(199, 211, 212, 0.452);
+    margin-bottom: 4rem ;
+}
+
+#banner{
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    background-color: #240c4b9a ;
+    color: white;
+    transform: skewX(-5deg);
+
+}
+    
+    .zoom {      
+    -webkit-transition: all 0.95s ease-in-out;    
+    -moz-transition: all 0.95s ease-in-out;    
+    transition: all 0.89s ease-in-out;     
+    cursor: -webkit-zoom-in;      
+    cursor: -moz-zoom-in;      
+    cursor: zoom-in;  
+    }     
+    
+    .zoom:hover,  
+    .zoom:active,   
+    .zoom:focus {
+ 
+    -ms-transform: scale(1.9);    
+    -moz-transform: scale(1.9);  
+    -webkit-transform: scale(1.9);  
+    -o-transform: scale(1.9);  
+    transform: scale(1.9);    
+    position:relative;      
+    z-index:100;  
+    overflow: visible;
+    }
+    
+ 
+  
+    

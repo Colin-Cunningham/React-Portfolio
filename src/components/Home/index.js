@@ -5,12 +5,12 @@ import "./home.css";
 import image from "./social.jpeg"
 const fadeAnimation = keyframes`${fadeIn}`
 
-const Fade1 = styled.div`animation: 15s ${fadeAnimation}`
+const Fade1 = styled.div`animation: 8s ${fadeAnimation}`
 const Fade2 = styled.div`animation: 3s ${fadeAnimation}`
 
 
 
-class ReactAnimations extends React.Component {
+class About extends React.Component {
 
   render() {
     return (
@@ -31,7 +31,7 @@ class ReactAnimations extends React.Component {
               makes me eager to learn more. I am currently seeking employment
               opportunities and would love to chat about it.
             </p>
-            <img src={image} alt="pictureofme"/>
+            <img className="ui centered image" src={image} alt="pictureofme"/>
             </Fade1> 
           </div>
         </div>
@@ -40,5 +40,5 @@ class ReactAnimations extends React.Component {
 
 }
 
-export default ReactAnimations
+export default About
 
