@@ -2,7 +2,7 @@ import React from "react";
 import styled, {keyframes} from "styled-components";
 import {fadeIn} from "react-animations";
 import "./home.css";
-import image from "./social.jpeg"
+import image from "./bestone.jpg"
 const fadeAnimation = keyframes`${fadeIn}`
 
 const Fade1 = styled.div`animation: 8s ${fadeAnimation}`
@@ -31,7 +31,7 @@ class About extends React.Component {
               makes me eager to learn more. I am currently seeking employment
               opportunities and would love to chat about it.
             </p>
-            <img className="ui centered image" src={image} alt="pictureofme"/>
+            <img id="colin" className="ui centered image" src={image} alt="pictureofme"/>
             </Fade1> 
           </div>
         </div>

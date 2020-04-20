@@ -10,11 +10,16 @@
 
 .jumbotron{
     background-color: rgba(255, 255, 255, 0);
+    height: 100%;
 }
 
 h1{
     color: white;
     font-family: 'Lilita One', cursive;
     text-align: center;
-    font-size: 7rem;
+    font-size: 6rem;
+}
+
+#colin{
+    width: 65%;
 }
