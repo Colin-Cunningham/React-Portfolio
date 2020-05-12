@@ -55,7 +55,7 @@ function Contact(){
                 />
               </div>
               <div className="text-center">
-                <MDBBtn color="light-blue">Submit</MDBBtn>
+             <MDBBtn color="light-blue" onClick={alert("Contact page is still under construction, please email the address listed in the footer below! Sorry for the inconvience!")}>Submit</MDBBtn>
               </div>
             </MDBCardBody>
           </MDBCard>

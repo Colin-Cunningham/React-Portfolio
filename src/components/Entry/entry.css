@@ -8,16 +8,14 @@
     width: 100%;
 }
 
-#image{
-    width: 12rem
-}
-#head{
-    font-size: .9rem ;
+
+#project{
+    width: 50%
 }
 #strip{
     background-image: url("./banner.gif");
     background-size: cover;
-    height: 18rem;
+    height: fit-content;
     padding: 4rem;
     width: 60rem;
     margin-left: -3rem;
@@ -27,7 +25,6 @@
 
 .col1{
    width: 5rem;
-   border: 2px solid black;
    height: 10rem;
    margin: 1rem;
 }
@@ -46,7 +43,7 @@
     width: 25rem;
     margin: 0  auto;
     border: .2rem inset rgba(199, 211, 212, 0.452);
-    margin-bottom: 4rem ;
+    margin-bottom: 1rem ;
 }
 
 #banner{
@@ -89,10 +86,30 @@
         #projects {
             width: 100px;
             height: 100px;
+            
             }
       }
 
 
 .download{
     color:black
+}
+
+
+#top{
+    background-color: rgb(199, 211, 212) ;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+#icons{
+    width: 100px;
+    height: 75px;
+}
+
+#title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    font-size: 1.3rem;
 }

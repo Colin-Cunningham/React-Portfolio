@@ -6,13 +6,13 @@ import "./style.css"
 function Cards(props) {
   return (
     <Card id="card" className="centered">
-      <Image id="image" src={props.image} wrapped ui={false} />
+      <Image id="image" src={props.image} wrapped ui={true} />
       <Card.Content>
   <Card.Header id="head">{props.name}</Card.Header>
       <Card.Meta>
         <span className='date'>{props.date}</span>
       </Card.Meta>
-      <Card.Description>
+      <Card.Description id="desc">
         {props.desc}
       </Card.Description>
     </Card.Content>
