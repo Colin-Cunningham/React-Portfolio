@@ -1,6 +1,6 @@
 #card{
-    width: 75%;
-    background-color: #6f6385;
+    width: 600px;
+    background-color: rgb(229, 234, 235);;
     margin-top: 2rem;
     color: white;
     text-align: center;
@@ -14,22 +14,22 @@
 
 #head{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 800;
-    color: white;
-    font-size: xx-large;
+    font-weight: 600;
+    color: #240c4b ;
+    font-size: x-large;
     text-decoration: underline;
 }
 
 #desc{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
-    color: white;
+    color: black ;
 }
 
 .date{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
-    color: white;
+    color: black ;
 }
 
 #link{
@@ -37,4 +37,8 @@
     font-weight: 800;
     color: white;
     font-size: large;
+}
+
+#bottom{
+    background-color: #82759b;
 }

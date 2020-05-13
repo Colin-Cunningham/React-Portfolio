@@ -16,7 +16,7 @@ function Cards(props) {
         {props.desc}
       </Card.Description>
     </Card.Content>
-    <Card.Content extra>
+    <Card.Content extra id="bottom">
         <a id="link" href={props.link}>Deployed Link</a>
     </Card.Content>
     </Card>

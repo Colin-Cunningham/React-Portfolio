@@ -26,7 +26,8 @@
 .col1{
    width: 5rem;
    height: 10rem;
-   margin: 1rem;
+   margin: 3rem;
+   margin-bottom: 6rem;
 }
 
 
@@ -113,3 +114,9 @@
     font-weight: 900;
     font-size: 1.3rem;
 }
+
+#lang{
+    width: fit-content;
+}
+
+

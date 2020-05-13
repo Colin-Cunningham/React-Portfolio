@@ -44,7 +44,7 @@ class Entry extends React.Component {
           
           <h2>Tech-Stack</h2>
         </div>
-        <div className="row">
+        <div id="lang" className="row">
           <div className="col-sm col1">
             <h3 id="top">Languages</h3>
             <p id="title">JavaScript</p>
@@ -54,7 +54,7 @@ class Entry extends React.Component {
             <p id="title">MySql</p>
           </div>
           <div className="col-sm col1">
-            <h3 id="top">Libraries/Frameworks</h3>
+            <h3 id="top">Libraries</h3>
             <p id="title">ReactJS</p>
             <p id="title">Express</p>
             <p id="title">Bootstrap/Bootstrap-React</p>
