@@ -15,10 +15,10 @@ class Entry extends React.Component {
         <div id="strip" className="row">
           <div id="project" className="col-sm">
             <Cards
-              name={projects[3].name}
-              image={projects[3].image}
-              link={projects[3].link}
-              desc={projects[3].description}
+              name={projects[4].name}
+              image={projects[4].image}
+              link={projects[4].link}
+              desc={projects[4].description}
             />
           </div>
         </div>
