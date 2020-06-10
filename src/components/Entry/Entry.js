@@ -40,32 +40,7 @@ class Entry extends React.Component {
             PDF Download
           </a>
         </h5>
-        <div id="banner" className="row">
-          
-          <h2>Tech-Stack</h2>
-        </div>
-        <div id="lang" className="row">
-          <div className="col-sm col1">
-            <h3 id="top">Languages</h3>
-            <p id="title">JavaScript</p>
-            <p id="title">HTML5</p>
-            <p id="title">CSS</p>
-            <p id="title">MongoDB</p>
-            <p id="title">MySql</p>
-          </div>
-          <div className="col-sm col1">
-            <h3 id="top">Libraries</h3>
-            <p id="title">ReactJS</p>
-            <p id="title">Express</p>
-            <p id="title">Bootstrap/Bootstrap-React</p>
-            <p id="title">Semantic UI</p>
-          </div>
-          <div className="col-sm col1">
-            <h3 id="top">Misc.</h3>
-            <p id="title">Gimp</p>
-            <p id="title">Microsoft Office</p>
-          </div>
-        </div>
+
       </div>
     );
   }
