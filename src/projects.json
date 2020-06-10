@@ -30,30 +30,5 @@
     "link": "https://athlestats2020.herokuapp.com/",
     "date": "5/10/2020",
     "description": "A full stack React Application, powered by MongoDB, that aims to help highschool football coaches, create rosters, link with players, and manage statistics. This app is still in the development process but is by far the most complicated application I have made to date."
-  },
-
-  {
-    "id": 1,
-    "name": "Random Password Generator",
-    "image": "https://i.ibb.co/K7zQ6LZ/Pass-Generator.png",
-    "link": "https://github.com/Colin-Cunningham/Random-Pass-Generator",
-    "date": "12/04/2019",
-    "description": "One of my first ever projects, which combined JavaScript, CSS, and HTML. The simple design is made to match the simplicity of the app. Just check boxes to select parameters and hit random. This will generate a fully random password, that can be easily copied to your clipboard. Great for creating a secure password, and just random combinations in general."
-  },
-  {
-    "id": 2,
-    "name": "Marvel Quiz",
-    "image": "https://i.ibb.co/z7GKfRS/coding.png",
-    "link": "https://colin-cunningham.github.io/Coding-Quiz.github.io/",
-    "date": "12/16/2019",
-    "description": "My third project, which aimed to create a working marvel quiz that could be updated and store highschores. Although the functionality is currently limited I will be updating this project fairly soon."
-  },
-  {
-    "id": 3,
-    "name": "Weather App",
-    "image": "https://i.ibb.co/HXzrjq1/weather-App.png",
-    "link": "https://github.com/Colin-Cunningham/Weather-App.github.io",
-    "date": "01/12/2020",
-    "description": "My fourth project, used external API's (OMW) to create a simple weather app. Just type in the city, and receive not only the current weather but the five day forecast as well. Although it may be a simple app, it demonstrates my ability to interact with API's and display data dynamically on the page."
   }
 ]
