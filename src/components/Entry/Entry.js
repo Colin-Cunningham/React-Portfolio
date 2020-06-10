@@ -1,7 +1,7 @@
 import React from "react";
 import "./entry.css";
 import Resume from "./Resume-CunninghamJPG.jpg";
-import pdf from "./Resume-Cunningham.pdf";
+import pdf from "./Resume-ColinCunningham.pdf";
 import Cards from "../Projects/index";
 import projects from "../../projects.json";
 
