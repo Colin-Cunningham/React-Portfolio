@@ -7,7 +7,6 @@ import Footer from "./components/Footer/Footer";
 import About from "./components/Home/index";
 import Wrapper from "./components/Wrapper2/Wrapper";
 import Entry from "./components/Entry/Entry";
-import Contact from "./components/Contact/index";
 import projects from "./projects.json"
 import Cards from "./components/Projects/index"
 
@@ -29,7 +28,6 @@ class App extends React.Component {
         </Body>
         <Wrapper>
           <Route exact path="/" component={Entry} />
-          <Route exact path="/contact" component={Contact} />
           <Route exact path="/projects">
             {this.state.projects.map(project =>(
               <Cards
